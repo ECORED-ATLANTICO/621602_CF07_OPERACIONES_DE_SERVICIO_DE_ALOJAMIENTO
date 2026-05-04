@@ -43,3 +43,29 @@ figcaption
     background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
   @media screen and (max-width: $bp-max-sm)
     background-image: url("../assets/curso/portada/fondo-banner-principal-xs.png") !important
+
+.banner-text
+  background: #FFFFFF
+  border-radius: 10px
+  padding: 20px 30px
+  margin-top: -40px
+
+  @media (min-width: 992px)
+    margin-top: -100px
+
+.z-2
+  position: relative
+  z-index: 2
+
+.fullwidth-bg
+  display: block
+  // @media screen and (min-width: 768px)
+  //   display: block
+  position: relative
+  z-index: 0
+
+  &--1::after
+    top: -40px
+    left: -50px
+    position: absolute
+    content: url('../assets/curso/common/bg-1.png')
