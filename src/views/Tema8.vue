@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 8
-      h1 Tema 8
+      h1 Bitácoras
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-9.bg-img.rounded-4.p-4
         .pe-4
