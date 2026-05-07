@@ -51,7 +51,7 @@ figcaption
   margin-top: -40px
 
   @media (min-width: 992px)
-    margin-top: -100px
+    margin-top: -40px
 
   &--green
     margin-top: -30px
@@ -68,6 +68,9 @@ figcaption
 
 .bg-terciario-t20
   background-color: $color-terciario-t20
+
+.bg-acento-botones-a5
+  background-color: $color-acento-botones-a5
 
 .bg-fondo-slider
   background-image: url("../assets/curso/common/bg-slider.png")
@@ -86,12 +89,40 @@ figcaption
 
   &--3
     background-image: url("../assets/curso/common/bg-cards.png")
-    
 
+  &--4
+    background-image: url("../assets/curso/common/bg-2-xs.png")
+
+.bg-title
+  background-image: url("../assets/curso/common/bg-title.png")
+  background-repeat: no-repeat
+  background-color: $color-acento-contenido-a5
+  background-size: cover
+  background-position: right top
+  width: fit-content
+  &--lg
+    background-image: url("../assets/curso/common/bg-title-lg.png")
+    
+.w-110
+  max-width: 110px
+  margin: 0 auto
+.w-120
+  max-width: 120px
+  margin: 0 auto
+.w-135
+  max-width: 135px
+  margin: 0 auto
+  
 .z-2
   position: relative
   z-index: 2
 
+.img-flotante
+  width: 150px
+  position: absolute
+  top: -75px
+  left: 0%
+  
 .fullwidth-bg
   display: none
   @media screen and (min-width: 769px)
@@ -183,3 +214,14 @@ figcaption
 
 .accesibilidad
   z-index: 3
+
+//////////CUSTOM TARJETA AVATAR TOP////////////
+.tarjeta-avatar
+  padding-top: 50px
+.tarjeta-avatar .tarjeta
+  padding-top: 20px !important
+  width: 100%
+.tarjeta-avatar > img 
+  left: 50%
+  top: 0
+  width: 85px
