@@ -72,6 +72,12 @@ figcaption
 .bg-acento-botones-a5
   background-color: $color-acento-botones-a5
 
+.bg-acento-contenido-a20
+  background-color: $color-acento-contenido-a20
+
+.bg-secundario-s1
+  background-color: $color-secundario-s1
+
 .bg-fondo-slider
   background-image: url("../assets/curso/common/bg-slider.png")
   background-repeat: no-repeat
@@ -93,6 +99,9 @@ figcaption
   &--4
     background-image: url("../assets/curso/common/bg-2-xs.png")
 
+  &--5
+    background-image: url("../assets/curso/common/bg-3.png")  
+
 .bg-title
   background-image: url("../assets/curso/common/bg-title.png")
   background-repeat: no-repeat
@@ -102,7 +111,22 @@ figcaption
   width: fit-content
   &--lg
     background-image: url("../assets/curso/common/bg-title-lg.png")
-    
+
+.w-55
+  max-width: 55px
+  margin: 0 auto
+.w-65
+  max-width: 65px
+  margin: 0 auto
+.w-75
+  max-width: 75px
+  margin: 0 auto  
+.w-85
+  max-width: 85px
+  margin: 0 auto
+.w-95
+  max-width: 95px
+  margin: 0 auto
 .w-110
   max-width: 110px
   margin: 0 auto
@@ -156,8 +180,11 @@ figcaption
 .slyder-a__btn--atrs, .slyder-a__btn--sigt
   background-color: $color-acento-botones
 .slyder-a__bullets__item
-  @media screen and ( max-width: $bp-max-xs )
+  margin: 0 3px
+  @media screen and (min-width: 430px )
     margin: 0 5px
+  @media screen and (min-width: 1280px )
+    margin: 0 10px
 
 .cita-decorada
 
@@ -240,3 +267,30 @@ figcaption
       color: white
     .linea-tiempo-d__item__content
       background-color: $color-acento-botones-a10
+
+.crd_hover_txt
+  position: relative  
+  padding: 0 !important
+  overflow: hidden !important  
+  &:hover    
+    .crd_hover_txt--body   
+      transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
+      transform: translateY(0)
+      background-color: #DBF5F9
+      h4
+        color: $color-sistema-texto
+
+  .crd_hover_txt--body
+    position: absolute
+    padding: 1.5rem
+    bottom: 0    
+    transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
+    transform: translateY(calc( 100% - 3.85rem ))
+    background-color: #DBF5F9
+    text-align: center
+
+  
+  @media (min-width:1200px) and (max-width:1400px)  
+    .crd_hover_txt--body
+      p
+        font-size: 0.85em
