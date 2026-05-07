@@ -105,11 +105,9 @@
           img(data-aos="fade-down-right", src="@/assets/curso/tema4/9.png", alt="")
 
     Separador
-    
-    .row.justify-content-center
-      .col-xl-10
-        #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
-          h2 4.3 Documentos de identificación legalmente aceptados
+
+    #t_4_3.titulo-segundo.color-acento-contenido(data-aos="flip-up")
+      h2 4.3 Documentos de identificación legalmente aceptados
     
     p El documento de identidad es un documento público que contiene datos de identificación personal, emitido por una autoridad competente para permitir la identificación de los ciudadanos ante las instituciones y el sistema jurídico.
     p.mb-4 En Colombia, los documentos de identificación vigentes son:
