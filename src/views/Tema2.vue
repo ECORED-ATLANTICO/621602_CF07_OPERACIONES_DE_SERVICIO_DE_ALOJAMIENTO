@@ -65,28 +65,28 @@
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/6.svg' alt='AvatarTop')
           .tarjeta.bg-acento-botones-a5
-            .p-3
+            .pe-2.py-4
               p.mb-0 Registro de huéspedes.
       .col-sm-6.col-lg-5.col-xl-3.mb-3.mb-xl-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-down")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/7.svg' alt='AvatarTop')
           .tarjeta.bg-acento-botones-a5
-            .p-3
+            .pe-2.py-4
               p.mb-0 Atención al cliente.
       .col-sm-6.col-lg-5.col-xl-3.mb-3.mb-xl-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/8.svg' alt='AvatarTop')
           .tarjeta.bg-acento-botones-a5
-            .p-3
+            .pe-2.py-4
               p.mb-0 Control de reservas del día.
       .col-sm-6.col-lg-5.col-xl-3.mb-3.mb-xl-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema2/9.svg' alt='AvatarTop')
           .tarjeta.bg-acento-botones-a5
-            .p-3
+            .pe-2.py-4
               p.mb-0 Aplicación de tarifas.
 
     p.mb-4.mb-lg-5 También figuran las siguientes funciones:

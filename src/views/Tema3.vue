@@ -110,17 +110,14 @@
       .col-lg-8.mb-4.mb-lg-0
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t20").mb-4
           .row.justify-content-center.align-items-center.z-2(titulo="Reserva con garantía")
-            .col-auto
-              h5 Reserva con garantía
-              p.mb-0 Son aquellas reservas que han recibido una cantidad de dinero (depósito) o un medio válido de garantía (tarjeta de crédito, carta de empresa o #[em voucher] de agencia) con el fin de asegurar la habitación. Generalmente corresponde al valor de la primera noche o al total de la estancia, de acuerdo con la política del hotel. En caso de que el huésped no llegue y no haya realizado el proceso de cancelación, esta situación se denomina #[em No Show].
+            .col-12
+              p.ps-lg-5.mb-0 Son aquellas reservas que han recibido una cantidad de dinero (depósito) o un medio válido de garantía (tarjeta de crédito, carta de empresa o #[em voucher] de agencia) con el fin de asegurar la habitación. Generalmente corresponde al valor de la primera noche o al total de la estancia, de acuerdo con la política del hotel. En caso de que el huésped no llegue y no haya realizado el proceso de cancelación, esta situación se denomina #[em No Show].
           .row.justify-content-center.align-items-center.z-2(titulo="Reserva sin garantía")
-            .col-auto
-              h5 Reserva sin garantía
-              p.mb-0 Son aquellas que no han sido garantizadas de ninguna manera. En tal caso el hotel no tiene obligación de guardarla después de una hora determinada (aproximadamente 6:00 p. m.) y en caso de que el huésped no llegue, esas habitaciones pueden ser asignadas a otros clientes. Se puede considerar que cuando se está en baja temporada o mientras exista disponibilidad estas reservas no se cancelan. El proceso de revisión y confirmación de estas reservas es especialmente importante en momentos de alta demanda y la información siempre debe ser dada al cliente en el momento de estar realizando la reserva con el fin de evitar posteriores inconvenientes.
+            .col-12
+              p.ps-lg-5.mb-0 Son aquellas que no han sido garantizadas de ninguna manera. En tal caso el hotel no tiene obligación de guardarla después de una hora determinada (aproximadamente 6:00 p. m.) y en caso de que el huésped no llegue, esas habitaciones pueden ser asignadas a otros clientes. Se puede considerar que cuando se está en baja temporada o mientras exista disponibilidad estas reservas no se cancelan. El proceso de revisión y confirmación de estas reservas es especialmente importante en momentos de alta demanda y la información siempre debe ser dada al cliente en el momento de estar realizando la reserva con el fin de evitar posteriores inconvenientes.
           .row.justify-content-center.align-items-center.z-2(titulo="Reservas especiales")
-            .col-auto
-              h5 Reservas especiales
-              p.mb-0 Son aquellas reservas en las que los huéspedes corresponden a personas importantes (VIP), clientes frecuentes, cortesías, grupos o ejecutivos de empresas hoteleras, entre otros. Estas reservas solo pueden cancelarse mediante solicitud del gerente o de una autoridad superior del establecimiento.
+            .col-12
+              p.ps-lg-5.mb-0 Son aquellas reservas en las que los huéspedes corresponden a personas importantes (VIP), clientes frecuentes, cortesías, grupos o ejecutivos de empresas hoteleras, entre otros. Estas reservas solo pueden cancelarse mediante solicitud del gerente o de una autoridad superior del establecimiento.
 
       .col-sm-8.col-lg-4
         figure
@@ -156,7 +153,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema3/9.png", alt="")
       .col-lg-8
-        SlyderF(columnas="col-sm-6")
+        SlyderF(columnas="col-xl-6")
           .tarjeta.bg-img.bg-img--3.p-4.py-5
             .row.justify-content-center.mb-3
               .col-6
@@ -193,7 +190,7 @@
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           span Reporte de habitaciones
-        img.mb-2(data-aos="fade-up", src="@/assets/curso/tema3/15.png", alt="Panel digital de rack de ocupación en un sistema de gestión hotelera (PMS), que muestra la disponibilidad y estado de las habitaciones mediante un calendario y códigos de colores que indican habitaciones ocupadas, reservadas, disponibles o en mantenimiento.")
+        img.mb-2(data-aos="fade-up", src="@/assets/curso/tema3/15.png", alt="Reporte de estado de habitaciones del sistema eZee que presenta un listado de números de habitación organizados por categorías como habitaciones ocupadas, suspendidas y disponibles, permitiendo visualizar la ocupación del hotel.")
         figcaption Nota. Tomada de #[em EzeeFrontDesk] (s.f)    
 
     Separador 
@@ -362,36 +359,31 @@
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t20")
       .row.justify-content-center.align-items-center.z-2(titulo="Llave mecánica")
-        .col-sm-8.col-lg-9
-          h5 Llave mecánica
+        .col-sm-10.col-lg-9.mb-4.mb-lg-0
           p.mb-0 Es el tipo de llave para cerradura tradicional. En los establecimientos que aún la utilizan, se recomienda el uso de llaves de seguridad de alta complejidad, más difíciles de copiar, como medida de protección al huésped. Su uso en hotelería formal es cada vez menos frecuente, aunque persiste en establecimientos pequeños o de categoría básica.
         .col-sm-4.col-lg-2
           figure
             img.w-55(src='@/assets/curso/tema3/24.svg', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Tarjeta perforada (<em>Ving-Card</em>)")
         .col-sm-10.col-lg-9.mb-4.mb-lg-0
-          h5 Tarjeta perforada (<em>Ving-Card</em>)
           p.mb-0 Fue la primera evolución de la llave mecánica hacia un sistema de tarjeta. Funcionaba mediante un patrón de perforaciones único por habitación. Aunque está en desuso, marcó el inicio de la estandarización de los sistemas de acceso en la industria hotelera.
         .col-sm-4.col-lg-2
           figure
             img.w-90(src='@/assets/curso/tema3/25.svg', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Tarjeta de banda magnética")
         .col-sm-10.col-lg-9.mb-4.mb-lg-0
-          h5 Tarjeta de banda magnética
           p.mb-0 Fue durante muchos años el estándar de la industria hotelera. Funciona mediante una banda magnética codificada que se activa en el momento del registro del huésped y se puede desactivar a su salida. Su principal ventaja es el bajo costo; su principal desventaja es que se desmagnetiza con facilidad al entrar en contacto con teléfonos celulares u otros dispositivos.
         .col-sm-4.col-lg-2
           figure
             img.w-90(src='@/assets/curso/tema3/26.svg', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Tarjeta RFID (<em>Radio Frequency Identification</em>)")
         .col-sm-10.col-lg-9.mb-4.mb-lg-0
-          h5 Tarjeta RFID (#[em Radio Frequency Identification])
           p.mb-0 Es actualmente el sistema más utilizado en los establecimientos de alojamiento de mediana y alta categoría en Colombia. Funciona por radiofrecuencia: el huésped solo acerca la tarjeta al lector sin necesidad de insertarla. Es más duradera que la banda magnética, más segura y permite una programación más precisa de los accesos y horarios de validez.
         .col-sm-4.col-lg-2
           figure
             img.w-90(src='@/assets/curso/tema3/27.svg', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Llave móvil o digital")
         .col-sm-10.col-lg-9.mb-4.mb-lg-0
-          h5 Llave móvil o digital
           p.mb-0 Es la tendencia más reciente en la industria hotelera mundial y su adopción en Colombia crece de manera progresiva. Permite al huésped utilizar su teléfono celular como llave de habitación mediante tecnologías Bluetooth o NFC (Near Field Communication). El código de acceso se envía directamente al dispositivo móvil del huésped tras completar el proceso de registro, que en muchos casos se realiza de forma remota antes de la llegada al hotel. Este sistema reduce los tiempos de espera en recepción y mejora significativamente la experiencia del huésped.
         .col-sm-4.col-lg-2
           figure
@@ -406,42 +398,42 @@
     .row.justify-content-center.mb-4.mb-lg-5
       .col-xl-10
         PasosA.color-amarillo.mb-5(tipo="n")
-          .row.align-items-center.justify-content-between
+          .row.align-items-center.justify-content-center
             .col-md-9.col-lg-9.mb-4.mb-md-0
               h3 Dar la bienvenida
               p con una sonrisa dar la cordial bienvenida al cliente.
             .col-6.col-md-3.col-lg-2
               figure
                 img(src='@/assets/curso/tema3/29.png', alt='')
-          .row.align-items-center.justify-content-between
+          .row.align-items-center.justify-content-center
             .col-6.col-md-3.col-lg-2.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema3/30.png', alt='')
             .col-md-9.col-lg-9
               h3.text-start Realizar el registro
               p.text-start se invita al huésped de manera amable a diligenciar la tarjeta de registro y solicitando presentación de su documento de identidad. El recepcionista debe observar que todos los datos que se soliciten se encuentren completos.
-          .row.align-items-center.justify-content-between
+          .row.align-items-center.justify-content-center
             .col-md-9.col-lg-9.mb-4.mb-md-0
               h3 Promocionar los servicios del hotel
               p el recepcionista es un vendedor, puede ofrecer habitaciones de mejores características a las solicitadas en la reserva presentando las diferentes opciones, en caso de contar con paquetes de alimentación o servicios complementarios darlos a conocer al huésped.
             .col-6.col-md-3.col-lg-2
               figure
                 img(src='@/assets/curso/tema3/31.png', alt='')
-          .row.align-items-center.justify-content-between
+          .row.align-items-center.justify-content-center
             .col-6.col-md-3.col-lg-2.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema3/32.png', alt='')
             .col-md-9.col-lg-9
               h3.text-start Asignar la habitación
               p.text-start se asigna de acuerdo con las necesidades y solicitudes del cliente.
-          .row.align-items-center.justify-content-between
+          .row.align-items-center.justify-content-center
             .col-md-9.col-lg-9.mb-4.mb-md-0
               h3 Solicitar garantía
               p se debe preguntar al huésped cuál será su forma de pago.
             .col-6.col-md-3.col-lg-2
               figure
                 img(src='@/assets/curso/tema3/33.png', alt='')
-          .row.align-items-center.justify-content-between
+          .row.align-items-center.justify-content-center
             .col-6.col-md-3.col-lg-2.mb-4.mb-md-0
               figure
                 img(src='@/assets/curso/tema3/34.png', alt='')
@@ -674,7 +666,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-sm-8.col-lg-4
         figure
-          img(data-aos="fade-down-right", src="@/assets/curso/tema3/50.png", alt="")
+          img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema3/50.png", alt="")
       .col-lg-8
         .p-4.rounded-4.bg-acento-botones-a5.mb-4.mb-lg-0
           ul.lista-ul--color.m-0

@@ -132,7 +132,7 @@
           .row(numero="5" titulo="Pasaporte")
             .col-auto
               p.mb-0 Documento de viaje internacional válido para la identificación de extranjeros en el proceso de registro hotelero. Para el reporte en el SIRE, el pasaporte debe estar vigente y contar con visa vigente o permiso autorizado por Migración Colombia. 
-          .row(numero="6" titulo="Documento de identidad de países de la Comunidad Andina de Naciones (CAN)")
+          .row.title-alto(numero="6" titulo="Documento de identidad de países de la Comunidad Andina de Naciones (CAN)")
             .col-auto
               p.mb-0 Los ciudadanos de Bolivia, Ecuador y Perú pueden ingresar y ser registrados con su documento de identidad nacional, sin necesidad de pasaporte. 
           .row(numero="7" titulo="Permiso de Protección Temporal (PPT)")

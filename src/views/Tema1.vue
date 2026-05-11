@@ -15,18 +15,18 @@
         .d-flex.align-items-center.h-100
           p.mb-0.px-lg-3 Es el cliente que se aloja en un establecimiento de servicio de alojamiento (hotel, apartahotel, posada, etc.); la palabra viene del latín #[em hospes].
   
-    .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
+    .row.justify-content-center.align-items-center.z-2
       .col-lg-8
         p Es importante comprender que cada huésped es único y que su motivación a viajar es específica; por lo que la disposición y actitud del recepcionista es indispensable para dar el servicio de calidad que se está buscando dentro del establecimiento y por el cual cada cliente paga.
         .p-4.rounded-4.bg-secundario-s5.mb-3
           p.mb-0 Los huéspedes se pueden clasificar de acuerdo con unas características, las que definen la forma como los atendemos y ayudan a segmentarlos de cara a las estrategias de servicio y de mejoramiento de ingresos.
-        p.mb-4.mb-lg-0 Se estudiarán primero los tipos y características de los huéspedes según el colectivo al que pertenecen.
+        p.mb-0 Se estudiarán primero los tipos y características de los huéspedes según el colectivo al que pertenecen.
 
-      .col-sm-8.col-lg-4
+      .col-sm-8.col-lg-4.d-none.d-lg-block
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema1/2.png", alt="")
 
-    .mt-5.pt-4
+    .mt-4.mt-lg-5.pt-4
       .fullwidth-bg.fullwidth-bg--1
       img(data-aos="fade-up")(src="@/assets/curso/tema1/3.png", alt="").z-2
       
@@ -38,7 +38,6 @@
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t20").mb-4
       .row.justify-content-center.align-items-center.z-2(titulo="Tercera edad")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          h5 Tercera edad
           p Los adultos mayores que por su disponibilidad de tiempo y recursos viajan generalmente con fines de esparcimiento. Se les conocen como la generación #[em baby boomer].
           p.mb-0 Por lo general, disponen de presupuestos más altos a la hora de viajar y suelen viajar en pareja o con amigos. Sus motivaciones de viaje los lleva a disfrutar las áreas del hotel en forma tranquila, requieren mayores explicaciones para el uso de las mismas y sus necesidades como viajeros generalmente se enfocan en salir de la rutina, por esto contar con un excelente servicio les reconforta.
         .col-sm-7.col-lg-3
@@ -46,7 +45,6 @@
             img(src='@/assets/curso/tema1/4.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Familias")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          h5 Familias
           p Este tipo de viajeros se da ahora con mayor frecuencia y los hoteles afrontan la solicitud del servicio de alojamiento para las familias en temporadas de vacaciones o fines de semana y/o con festivos. En este grupo la disponibilidad de dinero es más ajustada, por lo que son abiertos a escuchar ofertas de todo incluido y a las acomodaciones múltiples.
           p En las familias con niños generalmente los padres buscan tiempos de esparcimiento con sus hijos, sus solicitudes en el hotel varían de acuerdo con la edad de sus hijos, temas como la necesidad de contar con cuna, coche o silla de comedor especial entre otros, se hace presente.
           p.mb-0 En el momento de realizar su registro en el hotel, el recepcionista debe contar con la habilidad para identificar las necesidades y poder suplirlas con el equipo de trabajo.
@@ -55,7 +53,6 @@
             img(src='@/assets/curso/tema1/5.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Diplomáticos / Gobierno")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          h5 Diplomáticos / Gobierno
           p Este tipo de viajeros se da ahora con mayor frecuencia y los hoteles afrontan la solicitud del servicio de alojamiento para las familias en temporadas de vacaciones o fines de semana y/o con festivos. En este grupo la disponibilidad de dinero es más ajustada, por lo que son abiertos a escuchar ofertas de todo incluido y a las acomodaciones múltiples.
           p En las familias con niños generalmente los padres buscan tiempos de esparcimiento con sus hijos, sus solicitudes en el hotel varían de acuerdo con la edad de sus hijos, temas como la necesidad de contar con cuna, coche o silla de comedor especial entre otros, se hace presente.
           p.mb-0 En el momento de realizar su registro en el hotel, el recepcionista debe contar con la habilidad para identificar las necesidades y poder suplirlas con el equipo de trabajo.
@@ -64,7 +61,6 @@
             img(src='@/assets/curso/tema1/6.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Grupos")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          h5 Grupos
           p Este tipo de viajeros se da ahora con mayor frecuencia y los hoteles afrontan la solicitud del servicio de alojamiento para las familias en temporadas de vacaciones o fines de semana y/o con festivos. En este grupo la disponibilidad de dinero es más ajustada, por lo que son abiertos a escuchar ofertas de todo incluido y a las acomodaciones múltiples.
           p En las familias con niños generalmente los padres buscan tiempos de esparcimiento con sus hijos, sus solicitudes en el hotel varían de acuerdo con la edad de sus hijos, temas como la necesidad de contar con cuna, coche o silla de comedor especial entre otros, se hace presente.
           p.mb-0 En el momento de realizar su registro en el hotel, el recepcionista debe contar con la habilidad para identificar las necesidades y poder suplirlas con el equipo de trabajo.
@@ -73,7 +69,6 @@
             img(src='@/assets/curso/tema1/7.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Viajeros generación Z")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          h5 Viajeros generación Z
           p Este tipo de viajeros se da ahora con mayor frecuencia y los hoteles afrontan la solicitud del servicio de alojamiento para las familias en temporadas de vacaciones o fines de semana y/o con festivos. En este grupo la disponibilidad de dinero es más ajustada, por lo que son abiertos a escuchar ofertas de todo incluido y a las acomodaciones múltiples.
           p En las familias con niños generalmente los padres buscan tiempos de esparcimiento con sus hijos, sus solicitudes en el hotel varían de acuerdo con la edad de sus hijos, temas como la necesidad de contar con cuna, coche o silla de comedor especial entre otros, se hace presente.
           p.mb-0 En el momento de realizar su registro en el hotel, el recepcionista debe contar con la habilidad para identificar las necesidades y poder suplirlas con el equipo de trabajo.
@@ -82,7 +77,6 @@
             img(src='@/assets/curso/tema1/8.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Viajeros de lujo")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          h5 Viajeros de lujo
           p Este tipo de viajeros se da ahora con mayor frecuencia y los hoteles afrontan la solicitud del servicio de alojamiento para las familias en temporadas de vacaciones o fines de semana y/o con festivos. En este grupo la disponibilidad de dinero es más ajustada, por lo que son abiertos a escuchar ofertas de todo incluido y a las acomodaciones múltiples.
           p En las familias con niños generalmente los padres buscan tiempos de esparcimiento con sus hijos, sus solicitudes en el hotel varían de acuerdo con la edad de sus hijos, temas como la necesidad de contar con cuna, coche o silla de comedor especial entre otros, se hace presente.
           p.mb-0 En el momento de realizar su registro en el hotel, el recepcionista debe contar con la habilidad para identificar las necesidades y poder suplirlas con el equipo de trabajo.
@@ -91,7 +85,6 @@
             img(src='@/assets/curso/tema1/9.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Mochileros")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          h5 Mochileros
           p Este tipo de viajeros se da ahora con mayor frecuencia y los hoteles afrontan la solicitud del servicio de alojamiento para las familias en temporadas de vacaciones o fines de semana y/o con festivos. En este grupo la disponibilidad de dinero es más ajustada, por lo que son abiertos a escuchar ofertas de todo incluido y a las acomodaciones múltiples.
           p En las familias con niños generalmente los padres buscan tiempos de esparcimiento con sus hijos, sus solicitudes en el hotel varían de acuerdo con la edad de sus hijos, temas como la necesidad de contar con cuna, coche o silla de comedor especial entre otros, se hace presente.
           p.mb-0 En el momento de realizar su registro en el hotel, el recepcionista debe contar con la habilidad para identificar las necesidades y poder suplirlas con el equipo de trabajo.
@@ -100,7 +93,6 @@
             img(src='@/assets/curso/tema1/10.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Corporativo")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          h5 Corporativo
           p Este tipo de viajeros se da ahora con mayor frecuencia y los hoteles afrontan la solicitud del servicio de alojamiento para las familias en temporadas de vacaciones o fines de semana y/o con festivos. En este grupo la disponibilidad de dinero es más ajustada, por lo que son abiertos a escuchar ofertas de todo incluido y a las acomodaciones múltiples.
           p En las familias con niños generalmente los padres buscan tiempos de esparcimiento con sus hijos, sus solicitudes en el hotel varían de acuerdo con la edad de sus hijos, temas como la necesidad de contar con cuna, coche o silla de comedor especial entre otros, se hace presente.
           p.mb-0 En el momento de realizar su registro en el hotel, el recepcionista debe contar con la habilidad para identificar las necesidades y poder suplirlas con el equipo de trabajo.
