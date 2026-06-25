@@ -199,7 +199,7 @@
       h2 3.3 Informe de ocupación
 
     .p-4.rounded-4.bg-img.bg-img--5.mb-4
-      p.mb-0.text-center Haciendo uso del software hotelero se puede obtener el reporte de ocupación y de acuerdo con los parámetros que se establezcan para este reporte, la información que se puede obtener es:
+      p.mb-0.text-center Haciendo uso del #[em software] hotelero se puede obtener el reporte de ocupación y de acuerdo con los parámetros que se establezcan para este reporte, la información que se puede obtener es:
       
     .row.justify-content-center.align-items-stretch.z-2.mb-5
       .col-sm-10.col-lg-6.mb-4.mb-lg-0
@@ -257,7 +257,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema3/18.png", alt="")
       .col-lg-8
-        p Las formas impresas (formatos y reportes) han ido disminuyendo su uso debido al avance de los sistemas informáticos de gestión hotelera, conocidos como Property Management System (PMS), que permiten registrar y administrar la información de los huéspedes de manera digital. No obstante, estos formatos aún pueden utilizarse en establecimientos que operan mediante procesos manuales o como respaldo documental de la información registrada en el sistema.
+        p Las formas impresas (formatos y reportes) han ido disminuyendo su uso debido al avance de los sistemas informáticos de gestión hotelera, conocidos como #[em Property Management System] (PMS), que permiten registrar y administrar la información de los huéspedes de manera digital. No obstante, estos formatos aún pueden utilizarse en establecimientos que operan mediante procesos manuales o como respaldo documental de la información registrada en el sistema.
         .p-4.bg-acento-contenido-a5.rounded-4.mb-3
           p.mb-0 Un ejemplo de forma impresa utilizada en los establecimientos de alojamiento es la Tarjeta de Registro de Alojamiento (TRA), documento mediante el cual se formaliza el contrato de hospedaje entre el establecimiento y el huésped.
         p.mb-0 De acuerdo con el artículo 79 de la Ley 300 de 1996, modificado por el artículo 21 de la Ley 2068 de 2020, el contrato de hospedaje es un contrato de adhesión que una persona natural o jurídica celebra con el propósito principal de prestar alojamiento a otra persona denominada huésped, mediante el pago del precio respectivo, por un plazo inferior a 30 días. Asimismo, conforme al parágrafo del artículo 22 de la Ley 2068 de 2020, la Tarjeta de Registro de Alojamiento (TRA) es la prueba del contrato de hospedaje, en la cual se registran los datos del huésped y de sus acompañantes, quienes responden solidariamente por las obligaciones derivadas del servicio.
@@ -384,7 +384,7 @@
             img.w-90(src='@/assets/curso/tema3/27.svg', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Llave móvil o digital")
         .col-sm-10.col-lg-9.mb-4.mb-lg-0
-          p.mb-0 Es la tendencia más reciente en la industria hotelera mundial y su adopción en Colombia crece de manera progresiva. Permite al huésped utilizar su teléfono celular como llave de habitación mediante tecnologías Bluetooth o NFC (Near Field Communication). El código de acceso se envía directamente al dispositivo móvil del huésped tras completar el proceso de registro, que en muchos casos se realiza de forma remota antes de la llegada al hotel. Este sistema reduce los tiempos de espera en recepción y mejora significativamente la experiencia del huésped.
+          p.mb-0 Es la tendencia más reciente en la industria hotelera mundial y su adopción en Colombia crece de manera progresiva. Permite al huésped utilizar su teléfono celular como llave de habitación mediante tecnologías Bluetooth o NFC (<em>Near Field Communication</em>). El código de acceso se envía directamente al dispositivo móvil del huésped tras completar el proceso de registro, que en muchos casos se realiza de forma remota antes de la llegada al hotel. Este sistema reduce los tiempos de espera en recepción y mejora significativamente la experiencia del huésped.
         .col-sm-4.col-lg-2
           figure
             img.w-90(src='@/assets/curso/tema3/28.svg', alt='')
@@ -411,11 +411,11 @@
                 img(src='@/assets/curso/tema3/30.png', alt='')
             .col-md-9.col-lg-9
               h3.text-start Realizar el registro
-              p.text-start se invita al huésped de manera amable a diligenciar la tarjeta de registro y solicitando presentación de su documento de identidad. El recepcionista debe observar que todos los datos que se soliciten se encuentren completos.
+              p.text-start Se invita al huésped de manera amable a diligenciar la tarjeta de registro y solicitando presentación de su documento de identidad. El recepcionista debe observar que todos los datos que se soliciten se encuentren completos.
           .row.align-items-center.justify-content-center
             .col-md-9.col-lg-9.mb-4.mb-md-0
               h3 Promocionar los servicios del hotel
-              p el recepcionista es un vendedor, puede ofrecer habitaciones de mejores características a las solicitadas en la reserva presentando las diferentes opciones, en caso de contar con paquetes de alimentación o servicios complementarios darlos a conocer al huésped.
+              p El recepcionista es un vendedor, puede ofrecer habitaciones de mejores características a las solicitadas en la reserva presentando las diferentes opciones, en caso de contar con paquetes de alimentación o servicios complementarios darlos a conocer al huésped.
             .col-6.col-md-3.col-lg-2
               figure
                 img(src='@/assets/curso/tema3/31.png', alt='')
@@ -425,11 +425,11 @@
                 img(src='@/assets/curso/tema3/32.png', alt='')
             .col-md-9.col-lg-9
               h3.text-start Asignar la habitación
-              p.text-start se asigna de acuerdo con las necesidades y solicitudes del cliente.
+              p.text-start Se asigna de acuerdo con las necesidades y solicitudes del cliente.
           .row.align-items-center.justify-content-center
             .col-md-9.col-lg-9.mb-4.mb-md-0
               h3 Solicitar garantía
-              p se debe preguntar al huésped cuál será su forma de pago.
+              p Se debe preguntar al huésped cuál será su forma de pago.
             .col-6.col-md-3.col-lg-2
               figure
                 img(src='@/assets/curso/tema3/33.png', alt='')
@@ -439,7 +439,7 @@
                 img(src='@/assets/curso/tema3/34.png', alt='')
             .col-md-9.col-lg-9
               h3.text-start Despedida
-              p.text-start se le manifiesta al huésped que se desea una feliz estadía, se le entrega la llave al botones que lo acompañará hasta la habitación presentándose por su nombre.
+              p.text-start Se le manifiesta al huésped que se desea una feliz estadía, se le entrega la llave al botones que lo acompañará hasta la habitación presentándose por su nombre.
     
     .bg-title.bg-title--lg.p-3.rounded-5.pe-5.mb-4
       h5.mb-0 Registro de huéspedes individuales
@@ -481,21 +481,21 @@
             img(src='@/assets/curso/tema3/36.svg' alt='')
           .tarjeta.bg-img.bg-img--7.h-100
             .p-4
-              p.mb-0 Registro de huéspedes.
+              p.mb-0 Dirección de domicilio.
       .col-sm-6.col-lg-4.mb-3.mb-xl-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-down").h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/37.svg' alt='')
           .tarjeta.bg-img.bg-img--7.h-100
             .p-4
-              p.mb-0 Atención al cliente.
+              p.mb-0 Número telefónico.
       .col-sm-6.col-lg-4.mb-3.mb-xl-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-up").h-100
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/tema3/38.svg' alt='')
           .tarjeta.bg-img.bg-img--7.h-100
             .p-4
-              p.mb-0 Control de reservas del día.
+              p.mb-0 Forma de pago: cual será la forma de pago.
 
     .row.justify-content-center.mb-4
       .col-lg-10.col-xl-8
@@ -629,7 +629,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
         p En el registro para extranjeros se sigue el mismo procedimiento que para los huéspedes nacionales, con la diferencia en el documento de identificación: se deberá presentar pasaporte vigente con visa o permiso autorizado por Migración Colombia. Los ciudadanos de la Comunidad Andina de Naciones (CAN) —Bolivia, Ecuador y Perú— pueden presentar su documento de identidad nacional.
-        p.mb-4.mb-lg-0 Adicionalmente, el establecimiento está obligado a reportar al huésped extranjero en el Sistema de Información para el Reporte de Extranjeros (SIRE), plataforma electrónica administrada por la Unidad Administrativa Especial Migración Colombia, el mismo día del ingreso y también al momento del check-out. Los establecimientos registrados en el SIRE no están obligados a llevar libro físico de registro, conforme a la Resolución 2357 de 2020 de Migración Colombia. Solo en casos de ausencia de conectividad a internet, Migración Colombia habilitará el registro manual como excepción.
+        p.mb-4.mb-lg-0 Adicionalmente, el establecimiento está obligado a reportar al huésped extranjero en el Sistema de Información para el Reporte de Extranjeros (SIRE), plataforma electrónica administrada por la Unidad Administrativa Especial Migración Colombia, el mismo día del ingreso y también al momento del #[em check-out]. Los establecimientos registrados en el SIRE no están obligados a llevar libro físico de registro, conforme a la Resolución 2357 de 2020 de Migración Colombia. Solo en casos de ausencia de conectividad a internet, Migración Colombia habilitará el registro manual como excepción.
       .col-sm-8.col-lg-4
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema3/48.png", alt="")
@@ -637,7 +637,7 @@
     .bg-title.p-3.rounded-5.pe-5.mb-4
       h5.mb-0 Registro VIP
 
-    p.mb-4 Very Important Person (VIP) es la categoría asignada a huéspedes cuya influencia en su medio de desempeño puede contribuir significativamente al posicionamiento y al incremento de ventas del hotel. Aunque todos los huéspedes son importantes, este perfil recibe atención diferencial por su relevancia estratégica.
+    p.mb-4 #[em Very Important Person] (VIP) es la categoría asignada a huéspedes cuya influencia en su medio de desempeño puede contribuir significativamente al posicionamiento y al incremento de ventas del hotel. Aunque todos los huéspedes son importantes, este perfil recibe atención diferencial por su relevancia estratégica.
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
@@ -661,7 +661,7 @@
           img(data-aos="fade-down-right", src="@/assets/curso/tema3/49.png", alt="")
 
     .p-4.rounded-4.bg-acento-contenido-a5.mb-4
-      p.mb-0 El registro de estas personas puede realizarse en espacios diferentes al front office y contempla detalles adicionales como:
+      p.mb-0 El registro de estas personas puede realizarse en espacios diferentes al #[em front office] y contempla detalles adicionales como:
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-sm-8.col-lg-4
@@ -703,7 +703,7 @@
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
-        p Los sistemas PMS modernos permiten realizar el registro de manera remota, es decir, sin presencia física del huésped en la recepción. Para esto, el hotel dispone de una aplicación sincronizada con el PMS, a través de la cual se captura la información del huésped y se verifica su identidad de manera biométrica: se toma una fotografía del documento de identidad o pasaporte con un teléfono inteligente (smartphone) y se firma digitalmente. Una vez completado el proceso, el huésped únicamente se acerca a recibir o programar su llave de habitación.
+        p Los sistemas PMS modernos permiten realizar el registro de manera remota, es decir, sin presencia física del huésped en la recepción. Para esto, el hotel dispone de una aplicación sincronizada con el PMS, a través de la cual se captura la información del huésped y se verifica su identidad de manera biométrica: se toma una fotografía del documento de identidad o pasaporte con un teléfono inteligente (#[em smartphone]) y se firma digitalmente. Una vez completado el proceso, el huésped únicamente se acerca a recibir o programar su llave de habitación.
         p.mb-4.mb-lg-0 Adicionalmente, existen quioscos de registro en los que el cliente, a su llegada al hotel, puede completar su #[em check-in] sin interactuar con la recepción. Esta modalidad es especialmente beneficiosa en establecimientos con alto volumen de llegadas, donde se forman filas durante el proceso de registro.
       .col-sm-8.col-lg-4
         figure
@@ -724,7 +724,7 @@
                   i.fas.fa-file-video
 
     .p-4.rounded-4.bg-secundario-s10.mb-4.mb-lg-5
-      p.mb-0.text-center Podcast: asimismo, para reforzar el procedimiento técnico del check-in trabajado en este componente, se recomienda escuchar el siguiente recurso de audio: el #[em check-in] paso a paso: más allá del trámite, una experiencia de servicio.
+      p.mb-0.text-center Pódcast: asimismo, para reforzar el procedimiento técnico del #[em check-in] trabajado en este componente, se recomienda escuchar el siguiente recurso de audio: el #[em check-in] paso a paso: más allá del trámite, una experiencia de servicio.
 
     .row.justify-content-center.align-items-stretch.mb-4.mb-lg-5.z-2
       .col-sm-8.col-lg-5.d-none.d-lg-block
@@ -739,8 +739,8 @@
             h5 ¿Sabías qué?
             p Asimismo, para reforzar el procedimiento técnico del check-in trabajado en este componente, se recomienda escuchar el siguiente recurso de audio:
             TarjetaAudio.color-terciario.mb-3(
-              texto="El check-in paso a paso: más allá del trámite, una experiencia de servicio."
-              :audio="require('@/assets/componentes/audios/audio-ej.mp3')"
+              texto="El <em>check-in</em> paso a paso: más allá del trámite, una experiencia de servicio."
+              :audio="require('@/assets/audio/El-check-in-paso-a-paso-mas-alla-del-tramite-una-experiencia-de-servicio.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
             )
 

@@ -30,7 +30,7 @@
             img(src='@/assets/curso/tema7/3.svg' alt='AvatarTop')
           .tarjeta.bg-secundario-s5
             .p-3
-              p.mb-0 Turno tarde: 2:00 p.m. – 10:00 p.m
+              p.mb-0 Turno tarde: 2:00 p.m. – 10:00 p.m.
       .col-sm-6.col-lg-4.mb-3.mb-lg-0
         .tarjeta-avatar-b.align-items-center(data-aos="fade-up")
           .tarjeta-avatar-b__img
@@ -47,8 +47,7 @@
         p.mb-0 Al iniciar el turno, el recepcionista debe informarse de las novedades del turno anterior, revisar los reportes de ocupación, llegadas y salidas, y verificar que todos los elementos de trabajo estén disponibles y en orden.
         p Es responsabilidad del recepcionista no dejar actividades pendientes para el siguiente turno. Al finalizar su jornada debe registrar las novedades relevantes y los pendientes que por alguna razón no pudieron resolverse, con el fin de garantizar la continuidad del servicio.
         .p-4.rounded-4.border.bg-terciario-t20
-          p.mb-0 Al iniciar el turno, el recepcionista debe informarse de las novedades del turno anterior, revisar los reportes de ocupación, llegadas y salidas, y verificar que todos los elementos de trabajo estén disponibles y en orden.
-          p.mb-0 Es responsabilidad del recepcionista no dejar actividades pendientes para el siguiente turno. Al finalizar su jornada debe registrar las novedades relevantes y los pendientes que por alguna razón no pudieron resolverse, con el fin de garantizar la continuidad del servicio.
+          p.mb-0 Este registro se realiza en el libro de novedades, con firma de quien entrega y quien recibe el turno. En establecimientos con PMS u otras plataformas digitales de gestión, el registro puede realizarse también en estos sistemas, siempre dejando constancia del recibo conforme por ambas partes. 
         
 </template>
 

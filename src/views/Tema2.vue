@@ -19,7 +19,7 @@
     .bg-acento-contenido-a5.bg-special.rounded-4.p-4
       .row.justify-content-center.align-items-center
         .col-lg-9
-          p.mb-0 La importancia del departamento de recepción en el desarrollo de la operación del hotel es fundamental, no solo por las personas que constantemente solicitan los servicios, sino porque es el centro de operaciones y comunicación del hotel.IAhorse
+          p.mb-0 La importancia del departamento de recepción en el desarrollo de la operación del hotel es fundamental, no solo por las personas que constantemente solicitan los servicios, sino porque es el centro de operaciones y comunicación del hotel.
         .col-lg-2.position-lg-relative.z-2
           img.position-lg-absolute.img-flotante(data-aos="fade-down")(src="@/assets/curso/tema2/2.png", alt="").img-fluid.d-none.d-lg-block
 
@@ -48,6 +48,9 @@
       .col-sm-6.col-lg-3.d-none.d-lg-block
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema2/4.png", alt="")
+
+    .bg-title.p-3.rounded-5.pe-5.mb-4
+      h5.mb-0 Funciones
 
     .row.g-0.rounded-4.bg-acento-contenido-a5.mb-4
       .col-lg-3.d-none.d-lg-block
@@ -237,7 +240,7 @@
 
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8
-        p Los huéspedes están a menudo en un entorno desconocido y desean llevar a cabo sus planes de negocios o vacaciones, están ansiosos por aprender el quién, qué, cuándo, dónde y cómo de ese nuevo entorno.
+        p Las solicitudes de información, a menudo, comienzan con el botones, el operador telefónico, el empleado de recepción, cajero o conserje, porque estos empleados son los más visibles para el huésped y se perciben como los más conocedores; estos son quienes toman el pulso de la organización y la comunidad. 
         .p-4.rounded-4.bg-secundario-s5.mb-3
           p.mb-0 Sus respuestas a las solicitudes de información de los huéspedes sobre el transporte público, ubicación de las instalaciones del hotel, eventos especiales en la comunidad, y otro sinnúmero de preguntas, indican lo bien que el hotel los ha preparado para este importante papel.
         p.mb-4.mb-lg-0 Los gerentes de recepción deben participar activamente en la recopilación de información de interés para los huéspedes. También deben estar activos en el desarrollo de procedimientos para que el área de recepción comunique esta información efectivamente. Las relaciones que el gerente de recepción desarrolla con los otros directores de departamento y sus empleados son vitales para recopilar esta información.(Bardy, 2011).

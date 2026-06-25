@@ -25,7 +25,7 @@
             img(src='@/assets/curso/tema6/2.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Lista de reservas")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          p.mb-0 Contiene el detalle de todas las reservas confirmadas para un período determinado, generalmente el día en curso y los días siguientes. Incluye datos como nombre del huésped, tipo de habitación solicitada, tarifa aplicada, fechas de llegada y salida, y observaciones especiales. Este reporte permite anticipar la asignación de habitaciones, preparar pre-registros y coordinar con housekeeping y alimentos y bebidas los servicios incluidos en cada reserva.
+          p.mb-0 Contiene el detalle de todas las reservas confirmadas para un período determinado, generalmente el día en curso y los días siguientes. Incluye datos como nombre del huésped, tipo de habitación solicitada, tarifa aplicada, fechas de llegada y salida, y observaciones especiales. Este reporte permite anticipar la asignación de habitaciones, preparar pre-registros y coordinar con #[em housekeeping] y alimentos y bebidas los servicios incluidos en cada reserva.
         .col-sm-7.col-lg-3
           figure
             img(src='@/assets/curso/tema6/3.png', alt='')
@@ -37,7 +37,7 @@
             img(src='@/assets/curso/tema6/4.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Lista de llegadas y salidas pronosticadas")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          p.mb-0 Relaciona los huéspedes que se espera lleguen (check-in) y los que tienen prevista su salida (check-out) durante el turno. Permite organizar la carga de trabajo de la recepción, anticipar el número de habitaciones que estarán disponibles y coordinar con housekeeping los tiempos de limpieza y entrega. Una gestión adecuada de este reporte reduce los tiempos de espera y evita conflictos por habitaciones no disponibles a la hora del ingreso.
+          p.mb-0 Relaciona los huéspedes que se espera lleguen (#[em check-in]) y los que tienen prevista su salida (#[em check-out]) durante el turno. Permite organizar la carga de trabajo de la recepción, anticipar el número de habitaciones que estarán disponibles y coordinar con #[em housekeeping] los tiempos de limpieza y entrega. Una gestión adecuada de este reporte reduce los tiempos de espera y evita conflictos por habitaciones no disponibles a la hora del ingreso.
         .col-sm-7.col-lg-3
           figure
             img(src='@/assets/curso/tema6/5.png', alt='')
@@ -49,7 +49,7 @@
             img(src='@/assets/curso/tema6/6.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="No <em>shows</em>")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          p.mb-0 Son las reservas que no se materializaron: el huésped no llegó en la fecha prevista y no canceló la reserva con anticipación. Este reporte permite identificar habitaciones que figuraban como ocupadas pero que en realidad están disponibles, liberándolas para nuevas asignaciones. Dependiendo de las políticas del hotel y el tipo de garantía entregada al momento de la reserva, puede aplicarse un cargo por no show al huésped o a la agencia responsable.
+          p.mb-0 Son las reservas que no se materializaron: el huésped no llegó en la fecha prevista y no canceló la reserva con anticipación. Este reporte permite identificar habitaciones que figuraban como ocupadas pero que en realidad están disponibles, liberándolas para nuevas asignaciones. Dependiendo de las políticas del hotel y el tipo de garantía entregada al momento de la reserva, puede aplicarse un cargo por #[em no show] al huésped o a la agencia responsable.
         .col-sm-7.col-lg-3
           figure
             img(src='@/assets/curso/tema6/7.png', alt='')

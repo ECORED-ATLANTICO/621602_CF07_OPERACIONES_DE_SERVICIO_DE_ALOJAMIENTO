@@ -15,7 +15,7 @@
         .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
           div.banner-text.shadow
             p.mb-0 La industria hotelera cuenta con un conjunto de normas que regulan la actividad del servicio de alojamiento. Conocerlas y aplicarlas es indispensable para prestar un servicio eficiente y evitar situaciones que puedan generar sanciones o perjuicios al establecimiento.
-            p.mb-0 Para el procedimiento de registro (check-in) se debe considerar la Norma Técnica Sectorial Hotelera NTSH 003, que establece los requisitos de competencia laboral para el cargo de recepcionista de establecimiento de alojamiento y hospedaje. En el material complementario se encuentra el enlace para ampliar la información sobre esta norma.
+            p.mb-0 Para el procedimiento de registro (#[em check-in]) se debe considerar la Norma Técnica Sectorial Hotelera NTSH 003, que establece los requisitos de competencia laboral para el cargo de recepcionista de establecimiento de alojamiento y hospedaje. En el material complementario se encuentra el enlace para ampliar la información sobre esta norma.
 
     Separador
 

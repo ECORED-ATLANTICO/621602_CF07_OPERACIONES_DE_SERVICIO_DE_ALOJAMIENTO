@@ -161,7 +161,7 @@
       .col-lg-8
         p Las áreas públicas y las habitaciones están dispuestas exclusivamente para el servicio de los clientes. El personal del establecimiento dispone de áreas internas específicas para su uso: cafetería de empleados, baños, duchas, vestidores y ascensores de servicio.
         .p-4.rounded-4.bg-acento-contenido-a20.mb-4
-          p.mb-0 Respetar esta distinción es fundamental para preservar la experiencia del huésped y mantener el orden operativo del hotel. El ingreso del personal a áreas de clientes debe estar justificado por una función operativa concreta (mantenimiento, housekeeping, atención de solicitudes), y en ningún caso debe interferir con la privacidad o comodidad del huésped. El incumplimiento de estas normas puede afectar la imagen del establecimiento y generar inconformidades o quejas formales por parte de los huéspedes.
+          p.mb-0 Respetar esta distinción es fundamental para preservar la experiencia del huésped y mantener el orden operativo del hotel. El ingreso del personal a áreas de clientes debe estar justificado por una función operativa concreta (mantenimiento, #[em housekeeping], atención de solicitudes), y en ningún caso debe interferir con la privacidad o comodidad del huésped. El incumplimiento de estas normas puede afectar la imagen del establecimiento y generar inconformidades o quejas formales por parte de los huéspedes.
       .col-sm-8.col-lg-4
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema5/18.png", alt="")
