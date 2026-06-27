@@ -344,7 +344,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema3/22.png", alt="")
       .col-lg-8
-        p En un principio se usaron las pesadas llaves de hierro y luego de cobre; su cometido fundamental era la La llave de habitación es el instrumento mediante el cual el huésped accede a su espacio de alojamiento; su evolución tecnológica refleja los avances en seguridad, comodidad y experiencia del huésped a lo largo de la historia hotelera.
+        p La llave de la habitación es el instrumento mediante el cual el huésped accede a su espacio de alojamiento; su evolución tecnológica refleja los avances en seguridad, comodidad y experiencia del huésped a lo largo de la historia hotelera.
         .p-4.bg-acento-contenido-a5.rounded-4
           p En un principio se usaron las pesadas llaves de hierro y luego de cobre. Su cometido fundamental era la apertura de las puertas, pero había algo adicional: no era tan importante la llave como el llavero, que se convirtió por bastante tiempo en la identidad visual del hotel. El peso de las llaves y sus llaveros servía para que el cliente no olvidara dejarlas en recepción al salir, lo que generaba una interacción natural con el huésped. Estas llaves se guardaban en el casillero de madera con los números de habitación, lo cual ayudaba al recepcionista a saber si el huésped estaba o no en el hotel y a brindar un trato más personalizado.
 
@@ -355,7 +355,7 @@
       .row.justify-content-center.z-2.mb-3
         .col-lg-8.p-4.drop-shadow(data-aos="fade-down")
           div.banner-text.banner-text--blue.shadow
-            p.mb-0.text-center A continuación se describe la evolución de los sistemas de acceso a habitaciones: 
+            p.mb-0.text-center #[strong A continuación se describe la evolución de los sistemas de acceso a habitaciones:] 
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t20")
       .row.justify-content-center.align-items-center.z-2(titulo="Llave mecánica")

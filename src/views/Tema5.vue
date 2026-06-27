@@ -54,7 +54,7 @@
               img(src="@/assets/curso/tema5/5.png", alt="")
           .crd_hover_txt--body
             h4.mb-3 Responsabilidad y actitud
-            p.mb-0 Cuando el empleado porta el uniforme, entra en una actitud de responsabilidad y trabajo, con él, actúa en nombre de la empresa y busca presentar lo mejor de ella. El uniforme exige una actitud responsable y una presentación impecable. El personal debe mantener su uniforme limpio, ordenado y en perfecto estado. Además, es fundamental que el empleado refleje una actitud positiva y predispuesta al servicio.
+            p.mb-0 Cuando el empleado porta el uniforme, entra en una actitud de responsabilidad y trabajo, con él, actúa en nombre de la empresa y busca presentar lo mejor de ella.
 
     .row.justify-content-center.align-items-center.z-2
       .col-sm-8.col-lg-4.d-none.d-lg-block
