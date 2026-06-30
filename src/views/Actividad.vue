@@ -22,7 +22,7 @@ export default {
       introduccion:
         '<b> Objetivo:</b> evaluar la capacidad de las y los aprendices para identificar los conceptos, procedimientos y normativa relacionados con el proceso de registro de huéspedes (<em>check-in</em>) en establecimientos de alojamiento.',
       barajarPreguntas: true,
-      titulo_aprobado: '¡BUEN TRABAJO!.',
+      titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
       preguntas: [
         {
@@ -54,7 +54,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -86,7 +86,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -118,7 +118,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -150,7 +150,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -183,7 +183,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -215,7 +215,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -247,7 +247,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -280,7 +280,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -312,7 +312,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -345,7 +345,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -377,7 +377,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -409,7 +409,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -442,7 +442,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -474,7 +474,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -507,7 +507,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -539,7 +539,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -572,7 +572,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -604,7 +604,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -636,7 +636,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
@@ -668,7 +668,7 @@ export default {
             },
           ],
           mensaje_correcto:
-            'Se evidencia dominio de los conceptos y procedimientos del proceso de <em>check-in</em> en la recepción hotelera.',
+            'Se evidencia dominio de los conceptos y procedimientos del proceso de check-in en la recepción hotelera.',
           mensaje_incorrecto:
             'Revise nuevamente el contenido del componente formativo.',
         },
