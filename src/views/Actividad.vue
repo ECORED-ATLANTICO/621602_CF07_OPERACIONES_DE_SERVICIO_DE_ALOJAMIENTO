@@ -189,7 +189,7 @@ export default {
         },
         {
           id: 6,
-          texto: 'El rack de ocupación se utiliza para:',
+          texto: 'El <em>rack</em> de ocupación se utiliza para:',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [

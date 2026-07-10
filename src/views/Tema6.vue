@@ -25,7 +25,7 @@
             img(src='@/assets/curso/tema6/2.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Lista de reservas")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          p.mb-0 Contiene el detalle de todas las reservas confirmadas para un período determinado, generalmente el día en curso y los días siguientes. Incluye datos como nombre del huésped, tipo de habitación solicitada, tarifa aplicada, fechas de llegada y salida, y observaciones especiales. Este reporte permite anticipar la asignación de habitaciones, preparar pre-registros y coordinar con #[em housekeeping] y alimentos y bebidas los servicios incluidos en cada reserva.
+          p.mb-0 Contiene el detalle de todas las reservas confirmadas para un período determinado, generalmente el día en curso y los días siguientes. Incluye datos como nombre del huésped, tipo de habitación solicitada, tarifa aplicada, fechas de llegada y salida, y observaciones especiales. Este reporte permite anticipar la asignación de habitaciones, preparar prerregistros y coordinar con #[em housekeeping] y alimentos y bebidas los servicios incluidos en cada reserva.
         .col-sm-7.col-lg-3
           figure
             img(src='@/assets/curso/tema6/3.png', alt='')
@@ -47,15 +47,15 @@
         .col-sm-7.col-lg-3
           figure
             img(src='@/assets/curso/tema6/6.png', alt='')
-      .row.justify-content-center.align-items-center.z-2(titulo="No <em>shows</em>")
+      .row.justify-content-center.align-items-center.z-2(titulo="<em>No-shows</em>")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          p.mb-0 Son las reservas que no se materializaron: el huésped no llegó en la fecha prevista y no canceló la reserva con anticipación. Este reporte permite identificar habitaciones que figuraban como ocupadas pero que en realidad están disponibles, liberándolas para nuevas asignaciones. Dependiendo de las políticas del hotel y el tipo de garantía entregada al momento de la reserva, puede aplicarse un cargo por #[em no show] al huésped o a la agencia responsable.
+          p.mb-0 Son las reservas que no se materializaron: el huésped no llegó en la fecha prevista y no canceló la reserva con anticipación. Este reporte permite identificar habitaciones que figuraban como ocupadas pero que en realidad están disponibles, liberándolas para nuevas asignaciones. Dependiendo de las políticas del hotel y el tipo de garantía entregada al momento de la reserva, puede aplicarse un cargo por #[em no-show] al huésped o a la agencia responsable.
         .col-sm-7.col-lg-3
           figure
             img(src='@/assets/curso/tema6/7.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Reporte de ama de llaves")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          p Contiene la información detallada del estado de cada habitación del hotel. Es recibido por la recepción tres veces al día — generalmente en la mañana, al mediodía y en la noche — y se utiliza para comparar con el reporte de ocupación del PMS: ambos deben coincidir. En caso de encontrar diferencias (por ejemplo, una habitación que el sistema registra como ocupada pero ama de llaves reporta como vacía), se debe hacer una revisión inmediata del estado real de la habitación.
+          p Contiene la información detallada del estado de cada habitación del hotel. Es recibido por la recepción tres veces al día — generalmente en la mañana, al mediodía y en la noche — y se utiliza para comparar con el reporte de ocupación del PMS: ambos deben coincidir. En caso de encontrar diferencias (por ejemplo, una habitación que el sistema registra como ocupada, pero ama de llaves reporta como vacía), se debe hacer una revisión inmediata del estado real de la habitación.
           p.mb-0 En periodos de alta ocupación, este reporte puede revelar habitaciones desocupadas que por algún motivo no pasaron por caja, lo que representa un riesgo de pérdida para el establecimiento. También indica si una habitación está ocupada por una o varias personas, dato que permite verificar que los registros iniciales corresponden con la realidad del uso de la habitación.
         .col-sm-7.col-lg-3
           figure

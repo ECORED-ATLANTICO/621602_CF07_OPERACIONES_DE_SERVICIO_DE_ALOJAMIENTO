@@ -53,14 +53,14 @@
             img(src='@/assets/curso/tema1/5.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Diplomáticos / Gobierno")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          p Son personas que trabajan con el estado y viajan por trabajo, pero tienen un matiz adicional y es que, por lo general y en virtud del cargo que desempeñan o del rango que tengan, su tratamiento puede requerir un protocolo específico, principalmente por su seguridad. Por lo tanto, el hotel determina su propio procedimiento para el manejo de ellos. 
+          p Son personas que trabajan con el Estado y viajan por trabajo, pero tienen un matiz adicional y es que, por lo general y en virtud del cargo que desempeñan o del rango que tengan, su tratamiento puede requerir un protocolo específico, principalmente por su seguridad. Por lo tanto, el hotel determina su propio procedimiento para el manejo de ellos. 
           p.mb-0 Temas como el lugar en donde realizan su registro, habitaciones para su personal de seguridad ubicadas de manera estratégica y forma de atender sus requerimientos deben ser considerados. 
         .col-sm-7.col-lg-3
           figure
             img(src='@/assets/curso/tema1/6.png', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Grupos")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
-          p Esta tipología de huéspedes son una congregación de personas que viajan en las mismas fechas y con motivaciones de viaje similares (una convención, un tour, etc.). Poseen ciertos tratamientos y servicios específicos comunes a todos ellos. 
+          p Esta tipología de huéspedes son una congregación de personas que viajan en las mismas fechas y con motivaciones de viaje similares (una convención, un #[em tour], etc.). Poseen ciertos tratamientos y servicios específicos comunes a todos ellos. 
           p Cada hotel establece el número base para determinar llamar “grupo” teniendo en cuenta el número de personas y/o de habitaciones que van a alojar con un mismo código de reserva. Por lo general se puede decir que se considera grupo un número superior a 10 personas o 10 habitaciones en acomodaciones según sus necesidades. 
           p.mb-0 Para su atención también se debe establecer un protocolo, que contemple espacio especial para su recibimiento, control de equipajes, áreas especiales para el consumo de alimentos y si el motivo de viaje es empresarial, van a requerir de salones adecuados para realizar sus reuniones: se suelen otorgar descuentos en la tarifa y una serie de servicios adicionales. 
         .col-sm-7.col-lg-3
@@ -77,7 +77,7 @@
       .row.justify-content-center.align-items-center.z-2(titulo="Viajeros de lujo")
         .col-sm-10.col-lg-8.mb-4.mb-lg-0
           p Estos viajeros son los que tienen mayores expectativas y están dispuestos a pagar por la experiencia. 
-          p Por lo general el precio no es problema para ellos, son sofisticados, pero se fijan mucho en el valor de lo que obtienen (relación calidad precio). 
+          p Por lo general el precio no es problema para ellos, son sofisticados, pero se fijan mucho en el valor de lo que obtienen (relación calidad-precio). 
           p.mb-0 Por lo general, sus viajes son muy bien planeados y con intervención de asesores especializados. La mayoría de las ocasiones son viajeros de edad adulta, entre los 40 y 60 años que viajan en pareja. 
         .col-sm-7.col-lg-3
           figure

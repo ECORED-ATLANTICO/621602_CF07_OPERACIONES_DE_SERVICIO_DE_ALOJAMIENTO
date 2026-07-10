@@ -55,7 +55,7 @@
             .row.justify-content-center.mb-3
               .col-6
                 img(src='@/assets/curso/tema8/7.svg' alt='')
-            h4.text-center.mb-5 Habitaciones #[em no shows]:
+            h4.text-center.mb-5 Habitaciones #[em no-shows]:
             p.text-center.mb-4 reservas que no se materializaron y cuyo estado debe ser verificado y reportado según las políticas del establecimiento.
           .tarjeta.bg-img.bg-img--3.p-4.py-5
             .row.justify-content-center.mb-3
@@ -75,7 +75,7 @@
               .col-12.col-lg-3.mb-3.mb-lg-0
                 img(src="@/assets/curso/tema8/10.png", class="img-fluid cita-decorada__imagen-flotante-4")
               .col-12.col-lg-6.cita-decorada__texto.mb-4.mb-lg-0
-                p.mb-0.text-center.text-lg-start Ejemplo actividades para recibir y entregar turno
+                p.mb-0.text-center.text-lg-start Ejemplo actividades para recibir y entregar turno.
               .col-lg-3.col-md-3.col-12.d-flex.justify-content-center
                 a.boton.color-acento-botones.my-2(:href="obtenerLink('/downloads/Anexo3_CF07_8_Actividades_para_recibir_y_entregar_turno.pdf')" target="_blank")
                   span Descargar

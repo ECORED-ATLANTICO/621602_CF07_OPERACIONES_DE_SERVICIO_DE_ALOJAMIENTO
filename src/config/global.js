@@ -189,7 +189,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/621602_CF7_DU.zip',
+        download: 'downloads/CF07_621602_DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -248,7 +248,7 @@ export default {
         'Conjunto de datos organizados que forman un mensaje sobre un tema en concreto. Los datos por sí solos no tienen sentido; es su organización lo que genera información.',
     },
     {
-      termino: 'No show',
+      termino: 'No-show',
       significado:
         'Término utilizado cuando un cliente que tenía una reservación no se presenta, quedando la habitación vacante.',
     },
@@ -284,82 +284,90 @@ export default {
   referencias: [
     {
       referencia:
-        'Álvarez, D. I. (2015). <em>La importancia del uniforme: embajador de la compañía.</em> Blog del Hotel.',
+        'Álvarez, D. I. (2015). <em>La importancia del uniforme: embajador de la compañía</em>. Blog del Hotel.',
       link: '',
     },
     {
       referencia:
-        'Bardy, J. (2011). <em>Hotel front office management.</em> John Wiley & Sons.',
+        'Bardi, J. (2011). <em>Hotel front office management</em>. John Wiley & Sons.',
       link: '',
     },
     {
       referencia:
-        'Canalis, X. (2021). <em>Historia de la llave de hotel.</em> Hosteltur.',
+        'Canalis, X. (2021). <em>Historia de la llave de hotel</em>. Hosteltur.',
       link: '',
     },
     {
       referencia:
         'Congreso de Colombia. (1996, 26 de julio). <em>Ley 300 de 1996, por la cual se expide la Ley General de Turismo y se dictan otras disposiciones.</em> Diario Oficial No. 42.845.',
-      link: '',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=8634',
     },
     {
       referencia:
         'Congreso de Colombia. (2001, 4 de agosto). <em>Ley 679 de 2001, por medio de la cual se expide un estatuto para prevenir y contrarrestar la explotación, la pornografía y el turismo sexual con menores, en desarrollo del artículo 44 de la Constitución.</em> Diario Oficial No. 44.509.',
-      link: '',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=18309',
     },
     {
       referencia:
         'Congreso de Colombia. (2009, 21 de julio). <em>Ley 1336 de 2009, por medio de la cual se adiciona y robustece la Ley 679 de 2001, de lucha contra la explotación, la pornografía y el turismo sexual con niños, niñas y adolescentes.</em> Diario Oficial No. 47.417.',
-      link: '',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36877',
     },
     {
       referencia:
         'Congreso de Colombia. (2020, 31 de diciembre). <em>Ley 2068 de 2020, por la cual se modifica la Ley General de Turismo y se dictan otras disposiciones.</em> Diario Oficial No. 51.544.',
-      link: '',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=172558',
     },
     {
       referencia:
         'Congreso de Colombia. (2021, 14 de julio). <em>Ley 2101 de 2021, por medio de la cual se reduce la jornada laboral semanal de manera gradual, sin disminuir el salario de los trabajadores y se dictan otras disposiciones.</em> Diario Oficial No. 51.731.',
-      link: '',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=166506',
     },
     {
       referencia:
-        'Instituto Colombiano de Bienestar Familiar (ICBF). (2018). <em>Línea de política pública para la prevención y erradicación de la explotación sexual comercial de niñas, niños y adolescentes 2018-2028.</em> ICBF.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2003). <em>Norma Técnica Sectorial Colombiana NTSH 003: establecimientos de alojamiento y hospedaje — norma de competencia laboral: prestación del servicio de recepción y reservas conforme a manuales existentes.</em> MinCIT.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2009). <em>Norma Técnica Sectorial Hotelera NTSH 006: clasificación de los establecimientos de alojamiento y hospedaje — categorización por estrellas de hoteles, requisitos normativos.</em> MinCIT.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ministerio de Comercio, Industria y Turismo. (2021, 15 de julio). <em>Resolución 700 de 2021, por la cual se implementa la Tarjeta de Registro de Alojamiento.</em> MinCIT.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ministerio de Comercio, Industria y Turismo. (s. f.). <em>Manual de buenas prácticas para la prevención de la explotación sexual comercial de niñas, niños y adolescentes (ESCNNA) en viajes y turismo.</em> MinCIT.',
-      link: '',
+        'Instituto Colombiano de Bienestar Familiar (ICBF). (2018). <em>Línea de política pública para la prevención y erradicación de la explotación sexual comercial de niñas, niños y adolescentes 2018-2028</em>. ICBF.',
+      link:
+        'https://www.icbf.gov.co/sites/default/files/linea_pp_escnna_20180620.pdf',
     },
     {
       referencia:
         'Migración Colombia. (2020). <em>Resolución 2357 de 2020, por la cual se establecen los criterios para el cumplimiento de obligaciones migratorias.</em> Unidad Administrativa Especial Migración Colombia.',
+      link:
+        'https://www.cancilleria.gov.co/sites/default/files/Normograma/docs/resolucion_uaemc_2357_2020.htm',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo. (2003). <em>Norma Técnica Sectorial NTSH 003: establecimientos de alojamiento y hospedaje norma de competencia laboral: prestación del servicio de recepción y reservas conforme a manuales existentes</em>. MinCIT.',
+      link: 'https://fontur.com.co/sites/default/files/2020-11/NTSH003.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo. (2009). <em>Norma Técnica Sectorial Hotelera NTSH 006: clasificación de los establecimientos de alojamiento y hospedaje categorización por estrellas de hoteles, requisitos normativos</em>. MinCIT.',
+      link: 'https://fontur.com.co/sites/default/files/2020-11/NTSH006.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo. (2021, 15 de julio). <em>Resolución 700 de 2021, por la cual se implementa la Tarjeta de Registro de Alojamiento.</em> MinCIT.',
+      link:
+        'https://www.mincit.gov.co/normatividad/resoluciones/2021/resolucion-700-del-15-de-julio-de-2021-por-la-cual',
+    },
+    {
+      referencia:
+        'Ministerio de Comercio, Industria y Turismo. (s. f.). <em>Manual de buenas prácticas para la prevención de la explotación sexual comercial de niñas, niños y adolescentes (ESCNNA) en viajes y turismo</em>. MinCIT.',
       link: '',
     },
     {
       referencia:
         'SENA. (s. f.). <em>Guía práctica en el procedimiento de check-in</em> [Video]. YouTube.',
-      link: '',
+      link: 'https://www.youtube.com/watch?v=uUcVZQl-LE4',
     },
     {
       referencia:
-        'Villanueva, R. (2012). <em>Organización y prestación del servicio de recepción en alojamientos.</em> IC Editorial.',
+        'Villanueva, R. (2012). <em>Organización y prestación del servicio de recepción en alojamientos</em>. IC Editorial.',
       link: '',
     },
   ],
@@ -386,12 +394,12 @@ export default {
         {
           nombre: 'Sandra Isabel Suárez Delgado',
           cargo: 'Experto temático',
-          centro: 'Centro de Gestión y Servicios',
+          centro: 'Centro de Gestión y Servicios – Regional Antioquia',
         },
         {
           nombre: 'Harbey Castelblanco',
           cargo: 'Experto temático',
-          centro: 'Centro Nacional Colombo Alemán',
+          centro: 'Centro Nacional Colombo Alemán – Regional Atlántico ',
         },
         {
           nombre: 'Angélica Varón Quintero',

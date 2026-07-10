@@ -111,7 +111,7 @@
         AcordionA(tipo="a" clase-tarjeta="tarjeta bg-terciario-t20").mb-4
           .row.justify-content-center.align-items-center.z-2(titulo="Reserva con garantía")
             .col-12
-              p.ps-lg-5.mb-0 Son aquellas reservas que han recibido una cantidad de dinero (depósito) o un medio válido de garantía (tarjeta de crédito, carta de empresa o #[em voucher] de agencia) con el fin de asegurar la habitación. Generalmente corresponde al valor de la primera noche o al total de la estancia, de acuerdo con la política del hotel. En caso de que el huésped no llegue y no haya realizado el proceso de cancelación, esta situación se denomina #[em No Show].
+              p.ps-lg-5.mb-0 Son aquellas reservas que han recibido una cantidad de dinero (depósito) o un medio válido de garantía (tarjeta de crédito, carta de empresa o #[em voucher] de agencia) con el fin de asegurar la habitación. Generalmente corresponde al valor de la primera noche o al total de la estancia, de acuerdo con la política del hotel. En caso de que el huésped no llegue y no haya realizado el proceso de cancelación, esta situación se denomina #[em no-show].
           .row.justify-content-center.align-items-center.z-2(titulo="Reserva sin garantía")
             .col-12
               p.ps-lg-5.mb-0 Son aquellas que no han sido garantizadas de ninguna manera. En tal caso el hotel no tiene obligación de guardarla después de una hora determinada (aproximadamente 6:00 p. m.) y en caso de que el huésped no llegue, esas habitaciones pueden ser asignadas a otros clientes. Se puede considerar que cuando se está en baja temporada o mientras exista disponibilidad estas reservas no se cancelan. El proceso de revisión y confirmación de estas reservas es especialmente importante en momentos de alta demanda y la información siempre debe ser dada al cliente en el momento de estar realizando la reserva con el fin de evitar posteriores inconvenientes.
@@ -135,14 +135,14 @@
       .row.justify-content-center.z-2.mb-3
         .col-lg-10.p-4.drop-shadow(data-aos="fade-down")
           div.banner-text.shadow
-            p.mb-0 La disponibilidad de habitaciones es un control gráfico conocido como #[em rack] de ocupación, #[em room rack] o #[em planning]. En los sistemas PMS modernos, este control se presenta en forma de gráfico digitalizado que muestra, mediante colores, el estado de cada habitación, como se muestra a continuación.
+            p.mb-0 La disponibilidad de habitaciones es un control gráfico conocido como #[em rack] de ocupación, #[em room rack] o #[em planning]. En los sistemas PMS modernos, este control se presenta en forma de gráfico digitalizado que muestra, mediante colores, el estado de cada habitación, como se presenta a continuación.
 
     .row.justify-content-center.align-items-center.mb-5.bg-secundario-s1.rounded-4
-      .col-lg-10.col-xl-8
+      .col-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 1.
           span #[em Rack] de ocupación
-        img.mb-2(data-aos="fade-up", src="@/assets/curso/tema3/8.jpg", alt="Panel digital de rack de ocupación en un sistema de gestión hotelera (PMS), que muestra la disponibilidad y estado de las habitaciones mediante un calendario y códigos de colores que indican habitaciones ocupadas, reservadas, disponibles o en mantenimiento.")
+        img.mb-2(data-aos="fade-up", src="@/assets/curso/tema3/8.png", alt="Panel digital de rack de ocupación en un sistema de gestión hotelera (PMS), que muestra la disponibilidad y estado de las habitaciones mediante un calendario y códigos de colores que indican habitaciones ocupadas, reservadas, disponibles o en mantenimiento.")
         figcaption Nota. Tomada de #[em EzeeFrontDesk] (s.f)
 
     .p-4.rounded-4.bg-acento-contenido-a5.mb-4.mb-lg-5
@@ -165,7 +165,7 @@
               .col-6
                 img(src='@/assets/curso/tema3/11.svg' alt='')
             h4.text-center Habitaciones reservadas: 
-            p.text-center.mb-4 son habitaciones que se asignan a las reservas del día. De acuerdo con las solicitudes de los huéspedes pueden o no ser reasignadas, es decir, realizarse cambios en la asignación de las mismas.
+            p.text-center.mb-4 son habitaciones que se asignan a las reservas del día. De acuerdo con las solicitudes de los huéspedes, pueden o no ser reasignadas, es decir, realizarse cambios en la asignación de las mismas.
           .tarjeta.bg-img.bg-img--3.p-4.py-5
             .row.justify-content-center.mb-3
               .col-6
@@ -185,8 +185,10 @@
             h4.text-center.mb-5 Habitaciones sucias: 
             p.text-center.mb-4 son las habitaciones que los huéspedes han dejado libres y aún no han sido limpiadas por ama de llaves, por lo tanto, no están disponibles para la venta.
 
+    p.mb-4.mb-lg-5 La siguiente figura presenta un ejemplo de un tipo de reporte.
+
     .row.justify-content-center.align-items-center.bg-secundario-s1.rounded-4
-      .col-lg-10.col-xl-8
+      .col-12
         .titulo-sexto.color-acento-contenido.mb-4
           h5 Figura 2.
           span Reporte de habitaciones
@@ -364,7 +366,7 @@
         .col-sm-4.col-lg-2
           figure
             img.w-55(src='@/assets/curso/tema3/24.svg', alt='')
-      .row.justify-content-center.align-items-center.z-2(titulo="Tarjeta perforada (<em>Ving-Card</em>)")
+      .row.justify-content-center.align-items-center.z-2(titulo="Tarjeta perforada (<em>VingCard</em>)")
         .col-sm-10.col-lg-9.mb-4.mb-lg-0
           p.mb-0 Fue la primera evolución de la llave mecánica hacia un sistema de tarjeta. Funcionaba mediante un patrón de perforaciones único por habitación. Aunque está en desuso, marcó el inicio de la estandarización de los sistemas de acceso en la industria hotelera.
         .col-sm-4.col-lg-2
@@ -384,7 +386,7 @@
             img.w-90(src='@/assets/curso/tema3/27.svg', alt='')
       .row.justify-content-center.align-items-center.z-2(titulo="Llave móvil o digital")
         .col-sm-10.col-lg-9.mb-4.mb-lg-0
-          p.mb-0 Es la tendencia más reciente en la industria hotelera mundial y su adopción en Colombia crece de manera progresiva. Permite al huésped utilizar su teléfono celular como llave de habitación mediante tecnologías Bluetooth o NFC (<em>Near Field Communication</em>). El código de acceso se envía directamente al dispositivo móvil del huésped tras completar el proceso de registro, que en muchos casos se realiza de forma remota antes de la llegada al hotel. Este sistema reduce los tiempos de espera en recepción y mejora significativamente la experiencia del huésped.
+          p.mb-0 Es la tendencia más reciente en la industria hotelera mundial y su adopción en Colombia crece de manera progresiva. Permite al huésped utilizar su teléfono celular como llave de habitación mediante tecnologías #[em Bluetooth] o NFC (<em>Near Field Communication</em>). El código de acceso se envía directamente al dispositivo móvil del huésped tras completar el proceso de registro, que en muchos casos se realiza de forma remota antes de la llegada al hotel. Este sistema reduce los tiempos de espera en recepción y mejora significativamente la experiencia del huésped.
         .col-sm-4.col-lg-2
           figure
             img.w-90(src='@/assets/curso/tema3/28.svg', alt='')
@@ -401,7 +403,7 @@
           .row.align-items-center.justify-content-center
             .col-md-9.col-lg-9.mb-4.mb-md-0
               h3 Dar la bienvenida
-              p con una sonrisa dar la cordial bienvenida al cliente.
+              p Con una sonrisa dar la cordial bienvenida al cliente.
             .col-6.col-md-3.col-lg-2
               figure
                 img(src='@/assets/curso/tema3/29.png', alt='')
@@ -447,7 +449,7 @@
     .row.justify-content-center.align-items-center.mb-4.mb-lg-5.z-2
       .col-lg-8.mb-4.mb-lg-0
         p Es el registro que se realiza a un cliente, una pareja o una familia que hace uso del hotel con reserva previa. A efectos de localizar los datos del cliente, se le saluda con amabilidad y educación dándole la bienvenida, se le pregunta el nombre de quien tiene reservada la habitación y se le pide su documento de identidad.
-        p.mb-0 Para agilizar el tiempo de registro se deben elaborar los pre-registros, en los que se incluye información que se conoce del pasajero, en el momento del registro se pide amablemente al huésped verificar que la información impresa es correcta:
+        p.mb-0 Para agilizar el tiempo de registro se deben elaborar los prerregistros, en los que se incluye información que se conoce del pasajero, en el momento del registro se pide amablemente al huésped verificar que la información impresa es correcta:
       .col-sm-8.col-lg-4
         figure
           img(data-aos="fade-down-right", src="@/assets/curso/tema3/35.png", alt="")
@@ -495,7 +497,7 @@
             img(src='@/assets/curso/tema3/38.svg' alt='')
           .tarjeta.bg-img.bg-img--7.h-100
             .p-4
-              p.mb-0 Forma de pago: cual será la forma de pago.
+              p.mb-0 Forma de pago: se debe preguntar cuál será la forma de pago. 
 
     .row.justify-content-center.mb-4
       .col-lg-10.col-xl-8
@@ -507,7 +509,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-8.col-xl-7.mb-4.mb-lg-0
             h4 Clientes particulares / individuales / <em>walk-in</em>
-            p.mb-0 Cuando el huésped responde "con tarjeta de crédito", se le solicita amablemente la tarjeta con el fin de elaborar un pagaré o registro donde se toman los siguientes datos: tipo de tarjeta, nombre del titular, número de tarjeta de crédito y fecha de caducidad; explicándole que es por su propia comodidad, ya que tendrá crédito abierto en todas las áreas de consumo del hotel, y que corresponde a las políticas del establecimiento. En caso de querer pagar en efectivo, se pregunta el número de noches y se le solicita el pago anticipado de su estadía, sugiriendo además dejar un depósito adicional para cubrir los gastos extras.
+            p.mb-0 Cuando el huésped responde "con tarjeta de crédito", se le solicita amablemente la tarjeta con el fin de registrar la garantía de pago donde se toman los siguientes datos: tipo de tarjeta, nombre del titular, número de tarjeta de crédito y fecha de caducidad; explicándole que es por su propia comodidad, ya que tendrá crédito abierto en todas las áreas de consumo del hotel, y que corresponde a las políticas del establecimiento. En caso de querer pagar en efectivo, se pregunta el número de noches y se le solicita el pago anticipado de su estadía, sugiriendo además dejar un depósito adicional para cubrir los gastos extras.
           .col-sm-6.col-lg-3
             figure
               img(src='@/assets/curso/tema3/43.png', alt='')
@@ -593,7 +595,7 @@
     .row.justify-content-center.align-items-center.align-items-xl-stretch.mb-4.mb-lg-5
       .col-lg-4
         .p-4.rounded-4.bg-acento-contenido-a5.h-100.mb-4.mb-lg-0
-          p Con base en esta información se procede a hacer el pre-registro y a la llegada de los pasajeros solo será necesaria la firma en el registro y algún dato puntual que haga falta en el mismo. En caso de tener cuenta maestra se solicita la firma del guía o conductor del grupo y será la responsable de los valores a cancelar.
+          p Con base en esta información se procede a hacer el prerregistro y a la llegada de los pasajeros solo será necesaria la firma en el registro y algún dato puntual que haga falta en el mismo. En caso de tener cuenta maestra se solicita la firma del guía o conductor del grupo y será la responsable de los valores a cancelar.
           p.mb-0 Existen ocasiones que llegan grupos sin previa reserva. Para este caso se sugiere realizar el siguiente procedimiento:
       .col-sm-8.col-lg-4
         figure
@@ -609,7 +611,7 @@
               | Realizar una lista de las personas y acomodación.
             li.d-flex.mb-0
               i.fas.fa-minus.fa-xs.mt-2
-              | Pedir pago anticipado de la estadía.
+              | Solicitar el pago anticipado de la estadía.
             li.d-flex.mb-0
               i.fas.fa-minus.fa-xs.mt-2
               | Pedir depósito adicional por consumos extras o posibles daños.
@@ -736,7 +738,7 @@
             figure.pt-3
               img.w-155(src="@/assets/curso/tema3/mic.png", alt="alt")
           .col-sm-8.col-lg-8
-            h5 ¿Sabías qué?
+            h5 ¿Sabías que?
             p Asimismo, para reforzar el procedimiento técnico del check-in trabajado en este componente, se recomienda escuchar el siguiente recurso de audio:
             TarjetaAudio.color-terciario.mb-3(
               texto="El <em>check-in</em> paso a paso: más allá del trámite, una experiencia de servicio."

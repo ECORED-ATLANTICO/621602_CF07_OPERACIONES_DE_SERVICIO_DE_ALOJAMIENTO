@@ -61,7 +61,7 @@
         figure
           img.mb-4.mb-lg-0(data-aos="fade-down-right", src="@/assets/curso/tema5/6.png", alt="")
       .col-lg-8
-        p Sin duda, el porte de uniformes le otorga al establecimiento un gran plus en la calidad de su servicio, esto proyecta cuidado, inversión y preocupación por la imagen del hotel ante sus huéspedes y les dice además que está al pendiente de los detalles (Álvarez, 2015).
+        p Sin duda, el porte de uniformes le otorga al establecimiento un valor agregado, beneficio adicional o ventaja en la calidad de su servicio, esto proyecta cuidado, inversión y preocupación por la imagen del hotel ante sus huéspedes y les dice además que está al pendiente de los detalles (Álvarez, 2015).
         .p-4.rounded-4.bg-secundario-s5.mb-3
           p.mb-0 A la empresa se le recomienda hacer entrega de tres uniformes y en los hoteles que cuentan con servicio de lavandería utilizar el siguiente procedimiento para su lavado: el empleado entrega el uniforme sucio y recoge a cambio su uniforme limpio (los uniformes están debidamente marcados con el nombre del empleado). Los uniformes son propiedad del hotel y en caso de hacer mal uso de ellos el empleado debe responder ante el hotel; en caso de terminación del trabajo por renuncia o despido debe devolverlos al hotel.
         p.mb-0 Se debe portar el uniforme en óptimas condiciones: zapatos limpios, uñas arregladas y cabello bien presentado, lo que refleja aseo y pulcritud ante el huésped.
