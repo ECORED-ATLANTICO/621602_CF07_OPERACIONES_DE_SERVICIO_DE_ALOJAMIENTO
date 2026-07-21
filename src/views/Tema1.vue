@@ -130,7 +130,7 @@
               p Este tipo de cliente usa el hotel de acuerdo con la circunstancia puntual que está viviendo.
               p Muy probablemente ha visitado el hotel varias veces, pero no lo hace con una frecuencia tan alta.
               p Es un tipo de huéspedes al que hay que comunicarles las situaciones nuevas del hotel sin hacerles sentir que son extraños.
-              p.mb-0 Con estos clientes siempre es importante recurrir a los históricos del PMS y corroborar esa información al momento del registro.
+              p.mb-0 Con estos clientes siempre es importante recurrir a los históricos del PMS (#[em Property Management System]) y corroborar esa información al momento del registro.
             .col-lg-5.col-xl-4
               figure
                 img(src='@/assets/curso/tema1/14.png', alt='')
