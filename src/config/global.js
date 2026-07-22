@@ -248,7 +248,7 @@ export default {
         'Conjunto de datos organizados que forman un mensaje sobre un tema en concreto. Los datos por sí solos no tienen sentido; es su organización lo que genera información.',
     },
     {
-      termino: 'No-show',
+      termino: '<em>No-show</em>',
       significado:
         'Término utilizado cuando un cliente que tenía una reservación no se presenta, quedando la habitación vacante.',
     },

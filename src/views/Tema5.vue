@@ -121,6 +121,12 @@
                 img.w-65(src='@/assets/curso/tema5/13.svg', alt='')
           .row.justify-content-center.align-items-center.mb-5
             .col-lg-7.mb-4.mb-lg-0
+              p.mb-0 No compartir rastrillos, toallas ni maquillaje con otras personas. 
+            .col-lg-3
+              figure
+                img.w-95(src='@/assets/curso/tema5/19.svg', alt='')
+          .row.justify-content-center.align-items-center.mb-5
+            .col-lg-7.mb-4.mb-lg-0
               p.mb-0 Utilizar ropa limpia, bien planchada y sin pelusas.
             .col-lg-3
               figure
